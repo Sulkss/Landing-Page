@@ -86,3 +86,44 @@ button {
     color: #1f2937;
 }
 
+.wanted {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.wanted img {
+    padding: 10px 10px 20px 10px;
+    height: auto;
+    width: auto;
+    border: 8px solid black;
+    border-radius: 12px;
+}
+
+/* Quote text Css Below */
+
+.quote {
+    background-color: #e5e7eb;
+    padding-top: 170px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.quote blockquote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+    justify-items: center;
+    margin: 0;
+}
+
+.sig {
+    font-weight: bolder;
+    font-size: 34px;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 100px;
+}
+
+/* call to action section */
