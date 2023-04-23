@@ -35,7 +35,7 @@ ul {
 
 /* below is the css for the nook section */
 
-button {
+.button {
     display: block;
     text-align: center;
     width: 120px;
@@ -46,6 +46,7 @@ button {
     text-decoration: none;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .hero {
@@ -77,23 +78,27 @@ button {
 /* Moving on to the content below now */
 
 .content {
-    align-items: center
+    align-items: center;
+    padding: 80px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .content h1 {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    padding-bottom: 20px;
 }
 
 .wanted {
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
+    gap: 80px;
+    font-weight: bold;
 }
 
 .wanted img {
-    padding: 10px 10px 20px 10px;
     height: auto;
     width: auto;
     border: 8px solid black;
@@ -104,9 +109,10 @@ button {
 
 .quote {
     background-color: #e5e7eb;
-    padding-top: 170px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-top: 120px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .quote blockquote {
@@ -123,7 +129,53 @@ button {
     font-size: 34px;
     display: flex;
     justify-content: flex-end;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
 
 /* call to action section */
+
+.action {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 65px 75px 65px 65px;
+    background-color: #3882f6;
+    display: flex;
+    height: 80px;
+    max-width: 800px;
+    margin: 80px auto 80px;
+    justify-content: space-between;
+}
+
+.action h1 {
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+
+}
+
+.action p {
+    color: #e5e7eb;
+    font-size: 12px;
+    text-align: start;
+}
+
+.sing {
+    width: 100px;
+    text-align: center;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color:inherit;
+    color: #e5e7eb;
+    border-color: #e5e7eb;
+    flex-shrink: 0;
+}
+
+/*Footer section right here */
+
+.footer {
+    display: block;
+    background-color: #1f2937;
+    padding: 12px 12px 12px 12px;
+    font-size: 14px;
+    color: #e5e7eb;
+}
